@@ -53,6 +53,35 @@ def add_user(email_id, google_oauth_openid, name):
     finally:
         conn.close()
 
+def check_user(google_oauth_openid):
+
+    conn = sqlite3.connect(DB_NAME)
+    cursor = conn.cursor()
+
+    cursor.execute("""
+        SELECT id, email_id, google_oauth_openid, name
+        FROM USERS
+        WHERE google_oauth_openid = ?
+    """, (google_oauth_openid,))
+
+    user = cursor.fetchone()
+
+    conn.close()
+
+    if user:
+        return {
+            "exists":True,
+            "email_id": user[1],
+            "name": user[3]
+        }
+    re = {
+            "exists":False,
+            "email_id": "none",
+            "name": "none"
+        }
+    return re
+
+
 def show_all_users():
     """
     Displays all users from the USERS table.

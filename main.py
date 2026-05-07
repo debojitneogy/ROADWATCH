@@ -61,5 +61,11 @@ def authorize():
 
     return jsonify({"error": "Failed to fetch user info"}), 400
 
+@app.route("/user/<openid>")
+def get_user(openid):
+
+    user_data = db.check_user(openid)
+    return jsonify(user_data)
+
 if __name__ == '__main__':
     app.run(debug=True, port=8000)
