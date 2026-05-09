@@ -1,0 +1,540 @@
+state_code,vehicle_type,violation,first_offence_fine,repeat_offence_fine
+DL,Bike,No Helmet,1000,2000
+DL,Bike,Overspeeding,1000,2000
+DL,Bike,Signal Jump,1000,5000
+DL,Bike,Drunk Driving,10000,15000
+DL,Bike,No Insurance,2000,4000
+DL,Bike,Driving Without License,5000,10000
+DL,Bike,Parking Violation,500,1500
+DL,Bike,Mobile Phone While Driving,5000,10000
+DL,Bike,Pollution Certificate Missing,10000,20000
+DL,Bike,Triple Riding,1000,2000
+DL,Bike,Wrong Side Driving,5000,10000
+DL,Bike,No Registration,5000,10000
+DL,Bike,Dangerous Driving,5000,10000
+DL,Car,No Seatbelt,1000,2000
+DL,Car,Overspeeding,2000,4000
+DL,Car,Signal Jump,1000,5000
+DL,Car,Drunk Driving,10000,15000
+DL,Car,No Insurance,2000,4000
+DL,Car,Driving Without License,5000,10000
+DL,Car,Parking Violation,500,1500
+DL,Car,Mobile Phone While Driving,5000,10000
+DL,Car,Pollution Certificate Missing,10000,20000
+DL,Car,Wrong Side Driving,5000,10000
+DL,Car,No Registration,5000,10000
+DL,Car,Dangerous Driving,5000,10000
+DL,Truck,No Seatbelt,1000,2000
+DL,Truck,Overspeeding,4000,8000
+DL,Truck,Signal Jump,1000,5000
+DL,Truck,Drunk Driving,10000,15000
+DL,Truck,No Insurance,2000,4000
+DL,Truck,Driving Without License,5000,10000
+DL,Truck,Parking Violation,1000,2000
+DL,Truck,Mobile Phone While Driving,5000,10000
+DL,Truck,Pollution Certificate Missing,10000,20000
+DL,Truck,Wrong Side Driving,5000,10000
+DL,Truck,No Registration,5000,10000
+DL,Truck,Overloading,20000,40000
+DL,Truck,Dangerous Driving,5000,10000
+DL,Bus,No Seatbelt,1000,2000
+DL,Bus,Overspeeding,4000,8000
+DL,Bus,Signal Jump,1000,5000
+DL,Bus,Drunk Driving,10000,15000
+DL,Bus,No Insurance,2000,4000
+DL,Bus,Driving Without License,5000,10000
+DL,Bus,Parking Violation,1000,2000
+DL,Bus,Mobile Phone While Driving,5000,10000
+DL,Bus,Pollution Certificate Missing,10000,20000
+DL,Bus,Wrong Side Driving,5000,10000
+DL,Bus,No Registration,5000,10000
+DL,Bus,Overloading,20000,40000
+DL,Bus,Dangerous Driving,5000,10000
+DL,Auto,No Seatbelt,1000,2000
+DL,Auto,Overspeeding,1000,2000
+DL,Auto,Signal Jump,1000,5000
+DL,Auto,Drunk Driving,10000,15000
+DL,Auto,No Insurance,2000,4000
+DL,Auto,Driving Without License,5000,10000
+DL,Auto,Parking Violation,500,1500
+DL,Auto,Mobile Phone While Driving,5000,10000
+DL,Auto,Pollution Certificate Missing,10000,20000
+DL,Auto,Wrong Side Driving,5000,10000
+DL,Auto,No Registration,5000,10000
+DL,Auto,Overloading,20000,40000
+DL,Auto,Dangerous Driving,5000,10000
+DL,Commercial Vehicle,No Seatbelt,1000,2000
+DL,Commercial Vehicle,Overspeeding,4000,8000
+DL,Commercial Vehicle,Signal Jump,1000,5000
+DL,Commercial Vehicle,Drunk Driving,10000,15000
+DL,Commercial Vehicle,No Insurance,2000,4000
+DL,Commercial Vehicle,Driving Without License,5000,10000
+DL,Commercial Vehicle,Parking Violation,1000,2000
+DL,Commercial Vehicle,Mobile Phone While Driving,5000,10000
+DL,Commercial Vehicle,Pollution Certificate Missing,10000,20000
+DL,Commercial Vehicle,Wrong Side Driving,5000,10000
+DL,Commercial Vehicle,No Registration,5000,10000
+DL,Commercial Vehicle,Overloading,20000,40000
+DL,Commercial Vehicle,Dangerous Driving,5000,10000
+MH,Bike,No Helmet,1000,2000
+MH,Bike,Overspeeding,1000,2000
+MH,Bike,Signal Jump,1000,5000
+MH,Bike,Drunk Driving,10000,15000
+MH,Bike,No Insurance,2000,4000
+MH,Bike,Driving Without License,5000,10000
+MH,Bike,Parking Violation,1000,2000
+MH,Bike,Mobile Phone While Driving,5000,10000
+MH,Bike,Pollution Certificate Missing,10000,20000
+MH,Bike,Triple Riding,1000,2000
+MH,Bike,Wrong Side Driving,5000,10000
+MH,Bike,No Registration,5000,10000
+MH,Bike,Dangerous Driving,5000,10000
+MH,Car,No Seatbelt,1000,2000
+MH,Car,Overspeeding,2000,4000
+MH,Car,Signal Jump,1000,5000
+MH,Car,Drunk Driving,10000,15000
+MH,Car,No Insurance,2000,4000
+MH,Car,Driving Without License,5000,10000
+MH,Car,Parking Violation,1000,2000
+MH,Car,Mobile Phone While Driving,5000,10000
+MH,Car,Pollution Certificate Missing,10000,20000
+MH,Car,Wrong Side Driving,5000,10000
+MH,Car,No Registration,5000,10000
+MH,Car,Dangerous Driving,5000,10000
+MH,Truck,No Seatbelt,1000,2000
+MH,Truck,Overspeeding,4000,8000
+MH,Truck,Signal Jump,1000,5000
+MH,Truck,Drunk Driving,10000,15000
+MH,Truck,No Insurance,2000,4000
+MH,Truck,Driving Without License,5000,10000
+MH,Truck,Parking Violation,1000,2000
+MH,Truck,Mobile Phone While Driving,5000,10000
+MH,Truck,Pollution Certificate Missing,10000,20000
+MH,Truck,Wrong Side Driving,5000,10000
+MH,Truck,No Registration,5000,10000
+MH,Truck,Overloading,20000,40000
+MH,Truck,Dangerous Driving,5000,10000
+MH,Bus,No Seatbelt,1000,2000
+MH,Bus,Overspeeding,4000,8000
+MH,Bus,Signal Jump,1000,5000
+MH,Bus,Drunk Driving,10000,15000
+MH,Bus,No Insurance,2000,4000
+MH,Bus,Driving Without License,5000,10000
+MH,Bus,Parking Violation,1000,2000
+MH,Bus,Mobile Phone While Driving,5000,10000
+MH,Bus,Pollution Certificate Missing,10000,20000
+MH,Bus,Wrong Side Driving,5000,10000
+MH,Bus,No Registration,5000,10000
+MH,Bus,Overloading,20000,40000
+MH,Bus,Dangerous Driving,5000,10000
+MH,Auto,No Seatbelt,1000,2000
+MH,Auto,Overspeeding,1000,2000
+MH,Auto,Signal Jump,1000,5000
+MH,Auto,Drunk Driving,10000,15000
+MH,Auto,No Insurance,2000,4000
+MH,Auto,Driving Without License,5000,10000
+MH,Auto,Parking Violation,1000,2000
+MH,Auto,Mobile Phone While Driving,5000,10000
+MH,Auto,Pollution Certificate Missing,10000,20000
+MH,Auto,Wrong Side Driving,5000,10000
+MH,Auto,No Registration,5000,10000
+MH,Auto,Overloading,20000,40000
+MH,Auto,Dangerous Driving,5000,10000
+MH,Commercial Vehicle,No Seatbelt,1000,2000
+MH,Commercial Vehicle,Overspeeding,4000,8000
+MH,Commercial Vehicle,Signal Jump,1000,5000
+MH,Commercial Vehicle,Drunk Driving,10000,15000
+MH,Commercial Vehicle,No Insurance,2000,4000
+MH,Commercial Vehicle,Driving Without License,5000,10000
+MH,Commercial Vehicle,Parking Violation,1000,2000
+MH,Commercial Vehicle,Mobile Phone While Driving,5000,10000
+MH,Commercial Vehicle,Pollution Certificate Missing,10000,20000
+MH,Commercial Vehicle,Wrong Side Driving,5000,10000
+MH,Commercial Vehicle,No Registration,5000,10000
+MH,Commercial Vehicle,Overloading,20000,40000
+MH,Commercial Vehicle,Dangerous Driving,5000,10000
+KA,Bike,No Helmet,1000,2000
+KA,Bike,Overspeeding,1000,2000
+KA,Bike,Signal Jump,1000,5000
+KA,Bike,Drunk Driving,10000,15000
+KA,Bike,No Insurance,2000,4000
+KA,Bike,Driving Without License,5000,10000
+KA,Bike,Parking Violation,500,1500
+KA,Bike,Mobile Phone While Driving,5000,10000
+KA,Bike,Pollution Certificate Missing,10000,20000
+KA,Bike,Triple Riding,1000,2000
+KA,Bike,Wrong Side Driving,5000,10000
+KA,Bike,No Registration,5000,10000
+KA,Bike,Dangerous Driving,5000,10000
+KA,Car,No Seatbelt,1000,2000
+KA,Car,Overspeeding,2000,4000
+KA,Car,Signal Jump,1000,5000
+KA,Car,Drunk Driving,10000,15000
+KA,Car,No Insurance,2000,4000
+KA,Car,Driving Without License,5000,10000
+KA,Car,Parking Violation,500,1500
+KA,Car,Mobile Phone While Driving,5000,10000
+KA,Car,Pollution Certificate Missing,10000,20000
+KA,Car,Wrong Side Driving,5000,10000
+KA,Car,No Registration,5000,10000
+KA,Car,Dangerous Driving,5000,10000
+KA,Truck,No Seatbelt,1000,2000
+KA,Truck,Overspeeding,4000,8000
+KA,Truck,Signal Jump,1000,5000
+KA,Truck,Drunk Driving,10000,15000
+KA,Truck,No Insurance,2000,4000
+KA,Truck,Driving Without License,5000,10000
+KA,Truck,Parking Violation,1000,2000
+KA,Truck,Mobile Phone While Driving,5000,10000
+KA,Truck,Pollution Certificate Missing,10000,20000
+KA,Truck,Wrong Side Driving,5000,10000
+KA,Truck,No Registration,5000,10000
+KA,Truck,Overloading,20000,40000
+KA,Truck,Dangerous Driving,5000,10000
+KA,Bus,No Seatbelt,1000,2000
+KA,Bus,Overspeeding,4000,8000
+KA,Bus,Signal Jump,1000,5000
+KA,Bus,Drunk Driving,10000,15000
+KA,Bus,No Insurance,2000,4000
+KA,Bus,Driving Without License,5000,10000
+KA,Bus,Parking Violation,1000,2000
+KA,Bus,Mobile Phone While Driving,5000,10000
+KA,Bus,Pollution Certificate Missing,10000,20000
+KA,Bus,Wrong Side Driving,5000,10000
+KA,Bus,No Registration,5000,10000
+KA,Bus,Overloading,20000,40000
+KA,Bus,Dangerous Driving,5000,10000
+KA,Auto,No Seatbelt,1000,2000
+KA,Auto,Overspeeding,1000,2000
+KA,Auto,Signal Jump,1000,5000
+KA,Auto,Drunk Driving,10000,15000
+KA,Auto,No Insurance,2000,4000
+KA,Auto,Driving Without License,5000,10000
+KA,Auto,Parking Violation,500,1500
+KA,Auto,Mobile Phone While Driving,5000,10000
+KA,Auto,Pollution Certificate Missing,10000,20000
+KA,Auto,Wrong Side Driving,5000,10000
+KA,Auto,No Registration,5000,10000
+KA,Auto,Overloading,20000,40000
+KA,Auto,Dangerous Driving,5000,10000
+KA,Commercial Vehicle,No Seatbelt,1000,2000
+KA,Commercial Vehicle,Overspeeding,4000,8000
+KA,Commercial Vehicle,Signal Jump,1000,5000
+KA,Commercial Vehicle,Drunk Driving,10000,15000
+KA,Commercial Vehicle,No Insurance,2000,4000
+KA,Commercial Vehicle,Driving Without License,5000,10000
+KA,Commercial Vehicle,Parking Violation,1000,2000
+KA,Commercial Vehicle,Mobile Phone While Driving,5000,10000
+KA,Commercial Vehicle,Pollution Certificate Missing,10000,20000
+KA,Commercial Vehicle,Wrong Side Driving,5000,10000
+KA,Commercial Vehicle,No Registration,5000,10000
+KA,Commercial Vehicle,Overloading,20000,40000
+KA,Commercial Vehicle,Dangerous Driving,5000,10000
+GJ,Bike,No Helmet,500,1000
+GJ,Bike,Overspeeding,500,1000
+GJ,Bike,Signal Jump,500,2500
+GJ,Bike,Drunk Driving,10000,15000
+GJ,Bike,No Insurance,1000,2000
+GJ,Bike,Driving Without License,2000,5000
+GJ,Bike,Parking Violation,250,500
+GJ,Bike,Mobile Phone While Driving,2000,4000
+GJ,Bike,Pollution Certificate Missing,5000,10000
+GJ,Bike,Triple Riding,100,200
+GJ,Bike,Wrong Side Driving,1500,3000
+GJ,Bike,No Registration,1000,2000
+GJ,Bike,Dangerous Driving,1500,3000
+GJ,Car,No Seatbelt,500,1000
+GJ,Car,Overspeeding,1000,2000
+GJ,Car,Signal Jump,500,2500
+GJ,Car,Drunk Driving,10000,15000
+GJ,Car,No Insurance,1000,2000
+GJ,Car,Driving Without License,3000,5000
+GJ,Car,Parking Violation,500,1000
+GJ,Car,Mobile Phone While Driving,2000,4000
+GJ,Car,Pollution Certificate Missing,5000,10000
+GJ,Car,Wrong Side Driving,1500,3000
+GJ,Car,No Registration,1000,2000
+GJ,Car,Dangerous Driving,1500,3000
+GJ,Truck,No Seatbelt,500,1000
+GJ,Truck,Overspeeding,2000,4000
+GJ,Truck,Signal Jump,500,2500
+GJ,Truck,Drunk Driving,10000,15000
+GJ,Truck,No Insurance,1000,2000
+GJ,Truck,Driving Without License,3000,5000
+GJ,Truck,Parking Violation,1000,2000
+GJ,Truck,Mobile Phone While Driving,2000,4000
+GJ,Truck,Pollution Certificate Missing,5000,10000
+GJ,Truck,Wrong Side Driving,1500,3000
+GJ,Truck,No Registration,1000,2000
+GJ,Truck,Overloading,20000,40000
+GJ,Truck,Dangerous Driving,1500,3000
+GJ,Bus,No Seatbelt,500,1000
+GJ,Bus,Overspeeding,2000,4000
+GJ,Bus,Signal Jump,500,2500
+GJ,Bus,Drunk Driving,10000,15000
+GJ,Bus,No Insurance,1000,2000
+GJ,Bus,Driving Without License,3000,5000
+GJ,Bus,Parking Violation,1000,2000
+GJ,Bus,Mobile Phone While Driving,2000,4000
+GJ,Bus,Pollution Certificate Missing,5000,10000
+GJ,Bus,Wrong Side Driving,1500,3000
+GJ,Bus,No Registration,1000,2000
+GJ,Bus,Overloading,20000,40000
+GJ,Bus,Dangerous Driving,1500,3000
+GJ,Auto,No Seatbelt,500,1000
+GJ,Auto,Overspeeding,500,1000
+GJ,Auto,Signal Jump,500,2500
+GJ,Auto,Drunk Driving,10000,15000
+GJ,Auto,No Insurance,1000,2000
+GJ,Auto,Driving Without License,2000,5000
+GJ,Auto,Parking Violation,500,1000
+GJ,Auto,Mobile Phone While Driving,2000,4000
+GJ,Auto,Pollution Certificate Missing,5000,10000
+GJ,Auto,Wrong Side Driving,1500,3000
+GJ,Auto,No Registration,1000,2000
+GJ,Auto,Overloading,20000,40000
+GJ,Auto,Dangerous Driving,1500,3000
+GJ,Commercial Vehicle,No Seatbelt,500,1000
+GJ,Commercial Vehicle,Overspeeding,2000,4000
+GJ,Commercial Vehicle,Signal Jump,500,2500
+GJ,Commercial Vehicle,Drunk Driving,10000,15000
+GJ,Commercial Vehicle,No Insurance,1000,2000
+GJ,Commercial Vehicle,Driving Without License,3000,5000
+GJ,Commercial Vehicle,Parking Violation,1000,2000
+GJ,Commercial Vehicle,Mobile Phone While Driving,2000,4000
+GJ,Commercial Vehicle,Pollution Certificate Missing,5000,10000
+GJ,Commercial Vehicle,Wrong Side Driving,1500,3000
+GJ,Commercial Vehicle,No Registration,1000,2000
+GJ,Commercial Vehicle,Overloading,20000,40000
+GJ,Commercial Vehicle,Dangerous Driving,1500,3000
+TN,Bike,No Helmet,1000,2000
+TN,Bike,Overspeeding,1000,2000
+TN,Bike,Signal Jump,1000,5000
+TN,Bike,Drunk Driving,10000,15000
+TN,Bike,No Insurance,2000,4000
+TN,Bike,Driving Without License,5000,10000
+TN,Bike,Parking Violation,500,1500
+TN,Bike,Mobile Phone While Driving,5000,10000
+TN,Bike,Pollution Certificate Missing,10000,20000
+TN,Bike,Triple Riding,1000,2000
+TN,Bike,Wrong Side Driving,5000,10000
+TN,Bike,No Registration,5000,10000
+TN,Bike,Dangerous Driving,5000,10000
+TN,Car,No Seatbelt,1000,2000
+TN,Car,Overspeeding,2000,4000
+TN,Car,Signal Jump,1000,5000
+TN,Car,Drunk Driving,10000,15000
+TN,Car,No Insurance,2000,4000
+TN,Car,Driving Without License,5000,10000
+TN,Car,Parking Violation,500,1500
+TN,Car,Mobile Phone While Driving,5000,10000
+TN,Car,Pollution Certificate Missing,10000,20000
+TN,Car,Wrong Side Driving,5000,10000
+TN,Car,No Registration,5000,10000
+TN,Car,Dangerous Driving,5000,10000
+TN,Truck,No Seatbelt,1000,2000
+TN,Truck,Overspeeding,4000,8000
+TN,Truck,Signal Jump,1000,5000
+TN,Truck,Drunk Driving,10000,15000
+TN,Truck,No Insurance,2000,4000
+TN,Truck,Driving Without License,5000,10000
+TN,Truck,Parking Violation,1000,2000
+TN,Truck,Mobile Phone While Driving,5000,10000
+TN,Truck,Pollution Certificate Missing,10000,20000
+TN,Truck,Wrong Side Driving,5000,10000
+TN,Truck,No Registration,5000,10000
+TN,Truck,Overloading,20000,40000
+TN,Truck,Dangerous Driving,5000,10000
+TN,Bus,No Seatbelt,1000,2000
+TN,Bus,Overspeeding,4000,8000
+TN,Bus,Signal Jump,1000,5000
+TN,Bus,Drunk Driving,10000,15000
+TN,Bus,No Insurance,2000,4000
+TN,Bus,Driving Without License,5000,10000
+TN,Bus,Parking Violation,1000,2000
+TN,Bus,Mobile Phone While Driving,5000,10000
+TN,Bus,Pollution Certificate Missing,10000,20000
+TN,Bus,Wrong Side Driving,5000,10000
+TN,Bus,No Registration,5000,10000
+TN,Bus,Overloading,20000,40000
+TN,Bus,Dangerous Driving,5000,10000
+TN,Auto,No Seatbelt,1000,2000
+TN,Auto,Overspeeding,1000,2000
+TN,Auto,Signal Jump,1000,5000
+TN,Auto,Drunk Driving,10000,15000
+TN,Auto,No Insurance,2000,4000
+TN,Auto,Driving Without License,5000,10000
+TN,Auto,Parking Violation,500,1500
+TN,Auto,Mobile Phone While Driving,5000,10000
+TN,Auto,Pollution Certificate Missing,10000,20000
+TN,Auto,Wrong Side Driving,5000,10000
+TN,Auto,No Registration,5000,10000
+TN,Auto,Overloading,20000,40000
+TN,Auto,Dangerous Driving,5000,10000
+TN,Commercial Vehicle,No Seatbelt,1000,2000
+TN,Commercial Vehicle,Overspeeding,4000,8000
+TN,Commercial Vehicle,Signal Jump,1000,5000
+TN,Commercial Vehicle,Drunk Driving,10000,15000
+TN,Commercial Vehicle,No Insurance,2000,4000
+TN,Commercial Vehicle,Driving Without License,5000,10000
+TN,Commercial Vehicle,Parking Violation,1000,2000
+TN,Commercial Vehicle,Mobile Phone While Driving,5000,10000
+TN,Commercial Vehicle,Pollution Certificate Missing,10000,20000
+TN,Commercial Vehicle,Wrong Side Driving,5000,10000
+TN,Commercial Vehicle,No Registration,5000,10000
+TN,Commercial Vehicle,Overloading,20000,40000
+TN,Commercial Vehicle,Dangerous Driving,5000,10000
+WB,Bike,No Helmet,1000,2000
+WB,Bike,Overspeeding,1000,2000
+WB,Bike,Signal Jump,1000,5000
+WB,Bike,Drunk Driving,10000,15000
+WB,Bike,No Insurance,2000,4000
+WB,Bike,Driving Without License,5000,10000
+WB,Bike,Parking Violation,500,1500
+WB,Bike,Mobile Phone While Driving,5000,10000
+WB,Bike,Pollution Certificate Missing,10000,20000
+WB,Bike,Triple Riding,1000,2000
+WB,Bike,Wrong Side Driving,5000,10000
+WB,Bike,No Registration,5000,10000
+WB,Bike,Dangerous Driving,5000,10000
+WB,Car,No Seatbelt,1000,2000
+WB,Car,Overspeeding,2000,4000
+WB,Car,Signal Jump,1000,5000
+WB,Car,Drunk Driving,10000,15000
+WB,Car,No Insurance,2000,4000
+WB,Car,Driving Without License,5000,10000
+WB,Car,Parking Violation,500,1500
+WB,Car,Mobile Phone While Driving,5000,10000
+WB,Car,Pollution Certificate Missing,10000,20000
+WB,Car,Wrong Side Driving,5000,10000
+WB,Car,No Registration,5000,10000
+WB,Car,Dangerous Driving,5000,10000
+WB,Truck,No Seatbelt,1000,2000
+WB,Truck,Overspeeding,4000,8000
+WB,Truck,Signal Jump,1000,5000
+WB,Truck,Drunk Driving,10000,15000
+WB,Truck,No Insurance,2000,4000
+WB,Truck,Driving Without License,5000,10000
+WB,Truck,Parking Violation,1000,2000
+WB,Truck,Mobile Phone While Driving,5000,10000
+WB,Truck,Pollution Certificate Missing,10000,20000
+WB,Truck,Wrong Side Driving,5000,10000
+WB,Truck,No Registration,5000,10000
+WB,Truck,Overloading,20000,40000
+WB,Truck,Dangerous Driving,5000,10000
+WB,Bus,No Seatbelt,1000,2000
+WB,Bus,Overspeeding,4000,8000
+WB,Bus,Signal Jump,1000,5000
+WB,Bus,Drunk Driving,10000,15000
+WB,Bus,No Insurance,2000,4000
+WB,Bus,Driving Without License,5000,10000
+WB,Bus,Parking Violation,1000,2000
+WB,Bus,Mobile Phone While Driving,5000,10000
+WB,Bus,Pollution Certificate Missing,10000,20000
+WB,Bus,Wrong Side Driving,5000,10000
+WB,Bus,No Registration,5000,10000
+WB,Bus,Overloading,20000,40000
+WB,Bus,Dangerous Driving,5000,10000
+WB,Auto,No Seatbelt,1000,2000
+WB,Auto,Overspeeding,1000,2000
+WB,Auto,Signal Jump,1000,5000
+WB,Auto,Drunk Driving,10000,15000
+WB,Auto,No Insurance,2000,4000
+WB,Auto,Driving Without License,5000,10000
+WB,Auto,Parking Violation,500,1500
+WB,Auto,Mobile Phone While Driving,5000,10000
+WB,Auto,Pollution Certificate Missing,10000,20000
+WB,Auto,Wrong Side Driving,5000,10000
+WB,Auto,No Registration,5000,10000
+WB,Auto,Overloading,20000,40000
+WB,Auto,Dangerous Driving,5000,10000
+WB,Commercial Vehicle,No Seatbelt,1000,2000
+WB,Commercial Vehicle,Overspeeding,4000,8000
+WB,Commercial Vehicle,Signal Jump,1000,5000
+WB,Commercial Vehicle,Drunk Driving,10000,15000
+WB,Commercial Vehicle,No Insurance,2000,4000
+WB,Commercial Vehicle,Driving Without License,5000,10000
+WB,Commercial Vehicle,Parking Violation,1000,2000
+WB,Commercial Vehicle,Mobile Phone While Driving,5000,10000
+WB,Commercial Vehicle,Pollution Certificate Missing,10000,20000
+WB,Commercial Vehicle,Wrong Side Driving,5000,10000
+WB,Commercial Vehicle,No Registration,5000,10000
+WB,Commercial Vehicle,Overloading,20000,40000
+WB,Commercial Vehicle,Dangerous Driving,5000,10000
+UP,Bike,No Helmet,1000,2000
+UP,Bike,Overspeeding,1000,2000
+UP,Bike,Signal Jump,1000,5000
+UP,Bike,Drunk Driving,10000,15000
+UP,Bike,No Insurance,2000,4000
+UP,Bike,Driving Without License,5000,10000
+UP,Bike,Parking Violation,500,1500
+UP,Bike,Mobile Phone While Driving,5000,10000
+UP,Bike,Pollution Certificate Missing,10000,20000
+UP,Bike,Triple Riding,1000,2000
+UP,Bike,Wrong Side Driving,5000,10000
+UP,Bike,No Registration,5000,10000
+UP,Bike,Dangerous Driving,5000,10000
+UP,Car,No Seatbelt,1000,2000
+UP,Car,Overspeeding,2000,4000
+UP,Car,Signal Jump,1000,5000
+UP,Car,Drunk Driving,10000,15000
+UP,Car,No Insurance,2000,4000
+UP,Car,Driving Without License,5000,10000
+UP,Car,Parking Violation,500,1500
+UP,Car,Mobile Phone While Driving,5000,10000
+UP,Car,Pollution Certificate Missing,10000,20000
+UP,Car,Wrong Side Driving,5000,10000
+UP,Car,No Registration,5000,10000
+UP,Car,Dangerous Driving,5000,10000
+UP,Truck,No Seatbelt,1000,2000
+UP,Truck,Overspeeding,4000,8000
+UP,Truck,Signal Jump,1000,5000
+UP,Truck,Drunk Driving,10000,15000
+UP,Truck,No Insurance,2000,4000
+UP,Truck,Driving Without License,5000,10000
+UP,Truck,Parking Violation,1000,2000
+UP,Truck,Mobile Phone While Driving,5000,10000
+UP,Truck,Pollution Certificate Missing,10000,20000
+UP,Truck,Wrong Side Driving,5000,10000
+UP,Truck,No Registration,5000,10000
+UP,Truck,Overloading,20000,40000
+UP,Truck,Dangerous Driving,5000,10000
+UP,Bus,No Seatbelt,1000,2000
+UP,Bus,Overspeeding,4000,8000
+UP,Bus,Signal Jump,1000,5000
+UP,Bus,Drunk Driving,10000,15000
+UP,Bus,No Insurance,2000,4000
+UP,Bus,Driving Without License,5000,10000
+UP,Bus,Parking Violation,1000,2000
+UP,Bus,Mobile Phone While Driving,5000,10000
+UP,Bus,Pollution Certificate Missing,10000,20000
+UP,Bus,Wrong Side Driving,5000,10000
+UP,Bus,No Registration,5000,10000
+UP,Bus,Overloading,20000,40000
+UP,Bus,Dangerous Driving,5000,10000
+UP,Auto,No Seatbelt,1000,2000
+UP,Auto,Overspeeding,1000,2000
+UP,Auto,Signal Jump,1000,5000
+UP,Auto,Drunk Driving,10000,15000
+UP,Auto,No Insurance,2000,4000
+UP,Auto,Driving Without License,5000,10000
+UP,Auto,Parking Violation,500,1500
+UP,Auto,Mobile Phone While Driving,5000,10000
+UP,Auto,Pollution Certificate Missing,10000,20000
+UP,Auto,Wrong Side Driving,5000,10000
+UP,Auto,No Registration,5000,10000
+UP,Auto,Overloading,20000,40000
+UP,Auto,Dangerous Driving,5000,10000
+UP,Commercial Vehicle,No Seatbelt,1000,2000
+UP,Commercial Vehicle,Overspeeding,4000,8000
+UP,Commercial Vehicle,Signal Jump,1000,5000
+UP,Commercial Vehicle,Drunk Driving,10000,15000
+UP,Commercial Vehicle,No Insurance,2000,4000
+UP,Commercial Vehicle,Driving Without License,5000,10000
+UP,Commercial Vehicle,Parking Violation,1000,2000
+UP,Commercial Vehicle,Mobile Phone While Driving,5000,10000
+UP,Commercial Vehicle,Pollution Certificate Missing,10000,20000
+UP,Commercial Vehicle,Wrong Side Driving,5000,10000
+UP,Commercial Vehicle,No Registration,5000,10000
+UP,Commercial Vehicle,Overloading,20000,40000
+UP,Commercial Vehicle,Dangerous Driving,5000,10000

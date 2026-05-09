@@ -1,9 +1,10 @@
 import os, hashlib, secrets, httpx,dotenv
-from flask import Flask, redirect, url_for, session, jsonify, render_template
+from flask import Flask, redirect, url_for, session, jsonify, render_template,request
 import flask_cors
 from datetime import datetime, timedelta, UTC
 from authlib.integrations.flask_client import OAuth
 import db
+import chalan
 
 GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID")
 GOOGLE_CLIENT_SECRET = os.getenv("GOOGLE_CLIENT_SECRET")
@@ -66,6 +67,63 @@ def get_user(openid):
 
     user_data = db.check_user(openid)
     return jsonify(user_data)
+
+
+@app.route("/states", methods=["GET"])
+def states():
+    return jsonify({
+        "states": chalan.get_states()
+    })
+
+
+@app.route("/vehicle-types", methods=["GET"])
+def vehicle_types():
+    return jsonify({
+        "vehicle_types": chalan.get_vehicle_types()
+    })
+
+
+@app.route("/violations", methods=["GET"])
+def violations():
+    return jsonify({
+        "violations": chalan.get_violations()
+    })
+
+@app.route("/calculate-fine", methods=["POST"])
+def calculate_fine():
+
+    data = request.get_json()
+
+    # Validate request body
+    required_fields = [
+        "state",
+        "vehicle_type",
+        "violation",
+        "first_offence"
+    ]
+
+    for field in required_fields:
+        if field not in data:
+            return jsonify({
+                "error": f"Missing field: {field}"
+            }), 400
+
+    fine = chalan.calculate_fine(
+        state=data["state"],
+        vehicle_type=data["vehicle_type"],
+        violation=data["violation"],
+        first_offence=data["first_offence"]
+    )
+
+    # Rule not found
+    if fine is None:
+        return jsonify({
+            "error": "No matching challan rule found"
+        }), 404
+
+    return jsonify({
+        "fine": fine
+    })
 
 if __name__ == '__main__':
     app.run(debug=True, port=8000)
