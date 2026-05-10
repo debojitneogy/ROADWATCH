@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #0a0a0f;
+}
+
+::-webkit-scrollbar { width: 0px; }
+
+.gold-gradient {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+}
+
+.gold-text {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dark-card {
+  background: #111118;
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 20px;
+}
+
+.gold-border {
+  border: 1px solid rgba(245,158,11,0.2);
+}
