@@ -1,0 +1,230 @@
+{
+  "violations": [
+    {
+      "violation_id": "no_helmet",
+      "violation_name": "Riding without helmet / protective headgear",
+      "legal_section": "Section 194D MV Act 1988",
+      "states": {
+        "WB": {
+          "two_wheeler": { "first": 1000, "repeat": 1000 },
+          "currency": "INR",
+          "notes": "DL disqualification for 3 months. Source: WB Traffic Police 2021."
+        },
+        "MH": {
+          "two_wheeler": { "first": 1000, "repeat": 1000 },
+          "currency": "INR",
+          "notes": "DL disqualification for 3 months. Source: Zurich Kotak 2023."
+        },
+        "DL": {
+          "two_wheeler": { "first": 1000, "repeat": 1000 },
+          "currency": "INR",
+          "notes": "Standard challan. Source: Windshield Experts 2026."
+        }
+      }
+    },
+    {
+      "violation_id": "no_seatbelt",
+      "violation_name": "Seat belt violation",
+      "legal_section": "Section 194B MV Act 1988",
+      "states": {
+        "WB": {
+          "all": { "first": 1000, "repeat": 1000 },
+          "currency": "INR",
+          "notes": "Applies to driver, passenger and child below 14. Source: WB Traffic Police 2021."
+        },
+        "MH": {
+          "all": { "first": 1000, "repeat": 1000 },
+          "currency": "INR",
+          "notes": "Source: Zurich Kotak 2023."
+        },
+        "DL": {
+          "all": { "first": 1000, "repeat": 1000 },
+          "currency": "INR",
+          "notes": "Source: Windshield Experts 2026."
+        }
+      }
+    },
+    {
+      "violation_id": "overspeeding",
+      "violation_name": "Over-speeding",
+      "legal_section": "Section 183 / Section 206(4) MV Act 1988",
+      "states": {
+        "WB": {
+          "two_wheeler": { "first": 1000, "repeat": 2000 },
+          "four_wheeler": { "first": 1000, "repeat": 2000 },
+          "heavy_vehicle": { "first": 2000, "repeat": 4000 },
+          "currency": "INR",
+          "notes": "LMV: Rs.1000 first, Rs.2000 repeat. MGV/HGV: Rs.2000 first, Rs.4000 repeat. DL impounded. Source: WB Traffic Police 2021."
+        },
+        "MH": {
+          "two_wheeler": { "first": 1000, "repeat": 2000 },
+          "four_wheeler": { "first": 1000, "repeat": 2000 },
+          "heavy_vehicle": { "first": 2000, "repeat": 4000 },
+          "currency": "INR",
+          "notes": "Possible licence suspension. Source: Zurich Kotak 2023."
+        },
+        "DL": {
+          "two_wheeler": { "first": 1000, "repeat": 2000 },
+          "four_wheeler": { "first": 1000, "repeat": 2000 },
+          "heavy_vehicle": { "first": 2000, "repeat": 4000 },
+          "currency": "INR",
+          "notes": "Source: Windshield Experts / Godigit 2026."
+        }
+      }
+    },
+    {
+      "violation_id": "drunk_driving",
+      "violation_name": "Drunk driving / driving under influence of alcohol",
+      "legal_section": "Section 185 MV Act 1988",
+      "states": {
+        "WB": {
+          "all": { "first": null, "repeat": null },
+          "currency": "INR",
+          "notes": "No confirmed fine data available for West Bengal in current dataset."
+        },
+        "MH": {
+          "all": { "first": 10000, "repeat": 15000 },
+          "currency": "INR",
+          "notes": "Imprisonment possible on repeat. Source: Zurich Kotak 2023."
+        },
+        "DL": {
+          "all": { "first": 10000, "repeat": 15000 },
+          "currency": "INR",
+          "notes": "Source: Windshield Experts 2026."
+        }
+      }
+    },
+    {
+      "violation_id": "no_license",
+      "violation_name": "Driving without valid licence",
+      "legal_section": "Section 180 & 181 MV Act 1988",
+      "states": {
+        "WB": {
+          "all": { "first": 5000, "repeat": 5000 },
+          "currency": "INR",
+          "notes": "Source: WB Traffic Police 2021."
+        },
+        "MH": {
+          "all": { "first": 5000, "repeat": 10000 },
+          "currency": "INR",
+          "notes": "Vehicle seizure may apply. Imprisonment up to 3 months. Source: Zurich Kotak 2023."
+        },
+        "DL": {
+          "all": { "first": 5000, "repeat": 5000 },
+          "currency": "INR",
+          "notes": "Standard challan. Source: Godigit 2026."
+        }
+      }
+    },
+    {
+      "violation_id": "mobile_phone",
+      "violation_name": "Using mobile phone while driving",
+      "legal_section": "Section 184 MV Act 1988",
+      "states": {
+        "WB": {
+          "all": { "first": null, "repeat": null },
+          "currency": "INR",
+          "notes": "No confirmed fine data available for West Bengal in current dataset."
+        },
+        "MH": {
+          "all": { "first": 5000, "repeat": 10000 },
+          "currency": "INR",
+          "notes": "Possible licence suspension. Source: Zurich Kotak 2023."
+        },
+        "DL": {
+          "all": { "first": 5000, "repeat": 10000 },
+          "currency": "INR",
+          "notes": "Source: Windshield Experts 2026."
+        }
+      }
+    },
+    {
+      "violation_id": "dangerous_driving",
+      "violation_name": "Dangerous driving",
+      "legal_section": "Section 184 MV Act 1988",
+      "states": {
+        "WB": {
+          "all": { "first": 5000, "repeat": 10000 },
+          "currency": "INR",
+          "notes": "Repeat within 3 years. Source: WB Traffic Police 2021."
+        },
+        "MH": {
+          "all": { "first": 5000, "repeat": 10000 },
+          "currency": "INR",
+          "notes": "Court action may apply. Source: Zurich Kotak 2023."
+        },
+        "DL": {
+          "all": { "first": 5000, "repeat": 10000 },
+          "currency": "INR",
+          "notes": "Source: Windshield Experts 2026."
+        }
+      }
+    },
+    {
+      "violation_id": "no_registration",
+      "violation_name": "Driving vehicle without registration",
+      "legal_section": "Section 192 MV Act 1988",
+      "states": {
+        "WB": {
+          "all": { "first": 5000, "repeat": 10000 },
+          "currency": "INR",
+          "notes": "Source: WB Traffic Police 2021."
+        },
+        "MH": {
+          "all": { "first": 2000, "repeat": 5000 },
+          "currency": "INR",
+          "notes": "Source: Zurich Kotak 2023."
+        },
+        "DL": {
+          "all": { "first": 5000, "repeat": 10000 },
+          "currency": "INR",
+          "notes": "Source: Windshield Experts 2026."
+        }
+      }
+    },
+    {
+      "violation_id": "no_permit",
+      "violation_name": "Vehicle without permit",
+      "legal_section": "Section 192A MV Act 1988",
+      "states": {
+        "WB": {
+          "all": { "first": 10000, "repeat": 10000 },
+          "currency": "INR",
+          "notes": "Source: WB Traffic Police 2021."
+        },
+        "MH": {
+          "all": { "first": 10000, "repeat": 10000 },
+          "currency": "INR",
+          "notes": "Source: Zurich Kotak 2023."
+        },
+        "DL": {
+          "all": { "first": 10000, "repeat": 10000 },
+          "currency": "INR",
+          "notes": "Source: Windshield Experts 2026."
+        }
+      }
+    },
+    {
+      "violation_id": "driving_disqualified",
+      "violation_name": "Driving while disqualified",
+      "legal_section": "Section 182(1) MV Act 1988",
+      "states": {
+        "WB": {
+          "all": { "first": 10000, "repeat": 10000 },
+          "currency": "INR",
+          "notes": "Source: WB Traffic Police 2021."
+        },
+        "MH": {
+          "all": { "first": 10000, "repeat": 10000 },
+          "currency": "INR",
+          "notes": "Source: Zurich Kotak 2023."
+        },
+        "DL": {
+          "all": { "first": 10000, "repeat": 10000 },
+          "currency": "INR",
+          "notes": "Source: Windshield Experts 2026."
+        }
+      }
+    }
+  ]
+}

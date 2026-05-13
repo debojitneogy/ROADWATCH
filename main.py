@@ -4,7 +4,7 @@ import flask_cors
 from datetime import datetime, timedelta, UTC
 from authlib.integrations.flask_client import OAuth
 import db
-import chalan
+from ai.ai.chatbot import ask_llm
 
 GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID")
 GOOGLE_CLIENT_SECRET = os.getenv("GOOGLE_CLIENT_SECRET")
@@ -124,6 +124,41 @@ def calculate_fine():
     return jsonify({
         "fine": fine
     })
+
+@app.route("/ask-llm", methods=["POST"])
+def ask_llm_api():
+    try:
+        # Get JSON data from request
+        data = request.get_json()
+
+        # Required fields
+        user_query = data.get("user_query")
+        state_code = data.get("state_code")
+
+        # Optional fields
+        violation_id = data.get("violation_id")
+        vehicle_type = data.get("vehicle_type")
+
+        # Validate required fields
+        if not user_query or not state_code:
+            return jsonify({
+                "error": "user_query and state_code are required"
+            }), 400
+
+        # Call chatbot function
+        response = ask_llm(
+            user_query=user_query,
+            state_code=state_code,
+            violation_id=violation_id,
+            vehicle_type=vehicle_type
+        )
+
+        return jsonify(response), 200
+
+    except Exception as e:
+        return jsonify({
+            "error": str(e)
+        }), 500
 
 if __name__ == '__main__':
     app.run(debug=True, port=8000)
